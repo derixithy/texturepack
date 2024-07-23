@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-      using: actions/checkout@main
+      uses: actions/checkout@main
     - name: pull latest and remove old file from repo
       run: |
         git config --global user.name "derixithy"
