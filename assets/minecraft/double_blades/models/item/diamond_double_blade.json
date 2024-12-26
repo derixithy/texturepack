@@ -1,0 +1,6 @@
+{
+	"parent": "double_blades:item/bigger_util",
+	"textures": {
+	  "layer0": "double_blades:item/diamond_double_blade"
+	}
+}

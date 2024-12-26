@@ -1,0 +1,6 @@
+{
+	"parent": "claymores:item/bigger_util",
+	"textures": {
+	  "layer0": "claymores:item/diamond_claymore"
+	}
+}

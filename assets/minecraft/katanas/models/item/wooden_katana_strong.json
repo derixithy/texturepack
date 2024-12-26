@@ -1,0 +1,6 @@
+{
+	"parent": "katanas:item/bigger_util",
+	"textures": {
+	  "layer0": "katanas:item/wooden_katana_strong"
+	}
+}

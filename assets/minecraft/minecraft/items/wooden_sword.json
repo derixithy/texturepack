@@ -1,0 +1,40 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/wooden_sword"
+        },
+        "entries": [
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "model",
+                    "model": "katanas:item/wooden_katana_strong"
+                }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "katanas:item/wooden_katana"
+                }
+            },
+            {
+                "threshold": 108,
+                "model": {
+                    "type": "model",
+                    "model": "katanas_old:item/wooden_katana"
+                }
+            },
+            {
+                "threshold": 109,
+                "model": {
+                    "type": "model",
+                    "model": "katanas_old:item/wooden_katana"
+                }
+            }
+        ]
+    }
+}

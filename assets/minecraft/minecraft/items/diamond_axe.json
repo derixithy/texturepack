@@ -1,0 +1,26 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/diamond_axe"
+        },
+        "entries": [
+            {
+                "threshold": 3024000,
+                "model": {
+                    "type": "model",
+                    "model": "double_blades:item/diamond_double_blade"
+                }
+            },
+            {
+                "threshold": 5875100,
+                "model": {
+                    "type": "model",
+                    "model": "hand_axes:item/diamond_hand_axe"
+                }
+            }
+        ]
+    }
+}

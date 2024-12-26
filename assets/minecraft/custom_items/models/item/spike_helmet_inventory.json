@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+	  "layer0": "custom_items:item/spike_helmet_inventory"
+	}
+}

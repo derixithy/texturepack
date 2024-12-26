@@ -1,0 +1,68 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/golden_sword"
+        },
+        "entries": [
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "model",
+                    "model": "katanas:item/golden_katana_strong"
+                }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "katanas:item/golden_katana"
+                }
+            },
+            {
+                "threshold": 10,
+                "model": {
+                    "type": "model",
+                    "model": "daggers:item/gold_dagger"
+                }
+            },
+            {
+                "threshold": 108,
+                "model": {
+                    "type": "model",
+                    "model": "katanas_old:item/golden_katana"
+                }
+            },
+            {
+                "threshold": 109,
+                "model": {
+                    "type": "model",
+                    "model": "katanas_old:item/golden_katana"
+                }
+            },
+            {
+                "threshold": 200,
+                "model": {
+                    "type": "model",
+                    "model": "scythes:item/gold_scythe"
+                }
+            },
+            {
+                "threshold": 148500,
+                "model": {
+                    "type": "model",
+                    "model": "karambits:item/golden_karambit"
+                }
+            },
+            {
+                "threshold": 3005890,
+                "model": {
+                    "type": "model",
+                    "model": "claymores:item/gold_claymore"
+                }
+            }
+        ]
+    }
+}

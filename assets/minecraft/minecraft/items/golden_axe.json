@@ -1,0 +1,26 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/golden_axe"
+        },
+        "entries": [
+            {
+                "threshold": 3024000,
+                "model": {
+                    "type": "model",
+                    "model": "double_blades:item/golden_double_blade"
+                }
+            },
+            {
+                "threshold": 5875100,
+                "model": {
+                    "type": "model",
+                    "model": "hand_axes:item/golden_hand_axe"
+                }
+            }
+        ]
+    }
+}

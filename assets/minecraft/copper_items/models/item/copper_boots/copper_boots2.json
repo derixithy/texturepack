@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+	  "layer0": "copper_items:item/copper_boots/copper_boots2"
+	}
+}

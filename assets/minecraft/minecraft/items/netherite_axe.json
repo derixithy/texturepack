@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/netherite_axe"
+        },
+        "entries": [
+            {
+                "threshold": 5875100,
+                "model": {
+                    "type": "model",
+                    "model": "hand_axes:item/netherite_hand_axe"
+                }
+            }
+        ]
+    }
+}

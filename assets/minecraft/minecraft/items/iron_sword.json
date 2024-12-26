@@ -1,0 +1,159 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/iron_sword"
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "copper_items:item/copper_sword/copper_sword"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "copper_items:item/copper_sword/copper_sword1"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "copper_items:item/copper_sword/copper_sword2"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "copper_items:item/copper_sword/copper_sword3"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "copper_items:item/copper_sword/copper_sword4"
+                }
+            },
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "model",
+                    "model": "katanas:item/iron_katana_strong"
+                }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "katanas:item/iron_katana"
+                }
+            },
+            {
+                "threshold": 10,
+                "model": {
+                    "type": "model",
+                    "model": "katanas:item/copper_katana_strong"
+                }
+            },
+            {
+                "threshold": 11,
+                "model": {
+                    "type": "model",
+                    "model": "katanas:item/copper_katana"
+                }
+            },
+            {
+                "threshold": 12,
+                "model": {
+                    "type": "model",
+                    "model": "daggers:item/iron_dagger"
+                }
+            },
+            {
+                "threshold": 13,
+                "model": {
+                    "type": "model",
+                    "model": "daggers:item/copper_dagger"
+                }
+            },
+            {
+                "threshold": 108,
+                "model": {
+                    "type": "model",
+                    "model": "katanas_old:item/iron_katana"
+                }
+            },
+            {
+                "threshold": 109,
+                "model": {
+                    "type": "model",
+                    "model": "katanas_old:item/iron_katana"
+                }
+            },
+            {
+                "threshold": 110,
+                "model": {
+                    "type": "model",
+                    "model": "katanas_old:item/copper_katana"
+                }
+            },
+            {
+                "threshold": 111,
+                "model": {
+                    "type": "model",
+                    "model": "katanas_old:item/copper_katana"
+                }
+            },
+            {
+                "threshold": 200,
+                "model": {
+                    "type": "model",
+                    "model": "scythes:item/iron_scythe"
+                }
+            },
+            {
+                "threshold": 210,
+                "model": {
+                    "type": "model",
+                    "model": "scythes:item/copper_scythe"
+                }
+            },
+            {
+                "threshold": 148500,
+                "model": {
+                    "type": "model",
+                    "model": "karambits:item/iron_karambit"
+                }
+            },
+            {
+                "threshold": 148501,
+                "model": {
+                    "type": "model",
+                    "model": "karambits:item/copper_karambit"
+                }
+            },
+            {
+                "threshold": 3005890,
+                "model": {
+                    "type": "model",
+                    "model": "claymores:item/iron_claymore"
+                }
+            },
+            {
+                "threshold": 3005891,
+                "model": {
+                    "type": "model",
+                    "model": "claymores:item/copper_claymore"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/iron_axe"
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "copper_items:item/copper_axe/copper_axe"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "copper_items:item/copper_axe/copper_axe1"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "copper_items:item/copper_axe/copper_axe2"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "copper_items:item/copper_axe/copper_axe3"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "copper_items:item/copper_axe/copper_axe4"
+                }
+            },
+            {
+                "threshold": 2834500,
+                "model": {
+                    "type": "model",
+                    "model": "battle_hammer:item/battle_hammer"
+                }
+            },
+            {
+                "threshold": 3024000,
+                "model": {
+                    "type": "model",
+                    "model": "double_blades:item/iron_double_blade"
+                }
+            },
+            {
+                "threshold": 3024001,
+                "model": {
+                    "type": "model",
+                    "model": "double_blades:item/copper_double_blade"
+                }
+            },
+            {
+                "threshold": 5875100,
+                "model": {
+                    "type": "model",
+                    "model": "hand_axes:item/iron_hand_axe"
+                }
+            },
+            {
+                "threshold": 5875101,
+                "model": {
+                    "type": "model",
+                    "model": "hand_axes:item/copper_hand_axe"
+                }
+            }
+        ]
+    }
+}
