@@ -4,77 +4,84 @@
         "property": "custom_model_data",
         "fallback": {
             "type": "model",
-            "model": "item/iron_axe"
+            "model": "item/iron_sword"
         },
         "entries": [
             {
                 "threshold": 1,
                 "model": {
                     "type": "model",
-                    "model": "copper_items:item/copper_axe/copper_axe"
+                    "model": "copper_items:item/copper_sword/copper_sword"
                 }
             },
             {
                 "threshold": 2,
                 "model": {
                     "type": "model",
-                    "model": "copper_items:item/copper_axe/copper_axe1"
+                    "model": "copper_items:item/copper_sword/copper_sword1"
                 }
             },
             {
                 "threshold": 3,
                 "model": {
                     "type": "model",
-                    "model": "copper_items:item/copper_axe/copper_axe2"
+                    "model": "copper_items:item/copper_sword/copper_sword2"
                 }
             },
             {
                 "threshold": 4,
                 "model": {
                     "type": "model",
-                    "model": "copper_items:item/copper_axe/copper_axe3"
+                    "model": "copper_items:item/copper_sword/copper_sword3"
                 }
             },
             {
                 "threshold": 5,
                 "model": {
                     "type": "model",
-                    "model": "copper_items:item/copper_axe/copper_axe4"
+                    "model": "copper_items:item/copper_sword/copper_sword4"
                 }
             },
             {
-                "threshold": 2834500,
+                "threshold": 8,
                 "model": {
                     "type": "model",
-                    "model": "battle_hammer:item/battle_hammer"
+                    "model": "katanas:item/iron_katana_strong"
                 }
             },
             {
-                "threshold": 3024000,
+                "threshold": 9,
                 "model": {
                     "type": "model",
-                    "model": "double_blades:item/iron_double_blade"
+                    "model": "katanas:item/iron_katana"
                 }
             },
             {
-                "threshold": 3024001,
+                "threshold": 10,
                 "model": {
                     "type": "model",
-                    "model": "double_blades:item/copper_double_blade"
+                    "model": "katanas:item/copper_katana_strong"
                 }
             },
             {
-                "threshold": 5875100,
+                "threshold": 11,
                 "model": {
                     "type": "model",
-                    "model": "hand_axes:item/iron_hand_axe"
+                    "model": "katanas:item/copper_katana"
                 }
             },
             {
-                "threshold": 5875101,
+                "threshold": 12,
                 "model": {
                     "type": "model",
-                    "model": "hand_axes:item/copper_hand_axe"
+                    "model": "daggers:item/iron_dagger"
+                }
+            },
+            {
+                "threshold": 13,
+                "model": {
+                    "type": "model",
+                    "model": "daggers:item/copper_dagger"
                 }
             }
         ]

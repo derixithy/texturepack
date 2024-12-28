@@ -4,35 +4,28 @@
         "property": "custom_model_data",
         "fallback": {
             "type": "model",
-            "model": "item/stone_sword"
+            "model": "item/golden_sword"
         },
         "entries": [
             {
                 "threshold": 8,
                 "model": {
                     "type": "model",
-                    "model": "katanas:item/stone_katana_strong"
+                    "model": "katanas:item/golden_katana_strong"
                 }
             },
             {
                 "threshold": 9,
                 "model": {
                     "type": "model",
-                    "model": "katanas:item/stone_katana"
+                    "model": "katanas:item/golden_katana"
                 }
             },
             {
-                "threshold": 108,
+                "threshold": 10,
                 "model": {
                     "type": "model",
-                    "model": "katanas_old:item/stone_katana"
-                }
-            },
-            {
-                "threshold": 109,
-                "model": {
-                    "type": "model",
-                    "model": "katanas_old:item/stone_katana"
+                    "model": "daggers:item/gold_dagger"
                 }
             }
         ]

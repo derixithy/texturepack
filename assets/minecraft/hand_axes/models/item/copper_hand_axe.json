@@ -1,6 +1,0 @@
-{
-	"parent": "item/handheld",
-	"textures": {
-	  "layer0": "hand_axes:item/copper_hand_axe"
-	}
-}

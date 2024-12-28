@@ -1,6 +1,0 @@
-{
-	"parent": "claymores:item/bigger_util",
-	"textures": {
-	  "layer0": "claymores:item/gold_claymore"
-	}
-}

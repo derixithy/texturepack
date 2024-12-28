@@ -7,6 +7,41 @@
       "model": "minecraft:item/stone_hoe"
     },
     "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "copper_items:item/copper_hoe/copper_hoe"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "copper_items:item/copper_hoe/copper_hoe1"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "copper_items:item/copper_hoe/copper_hoe2"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "copper_items:item/copper_hoe/copper_hoe3"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "copper_items:item/copper_hoe/copper_hoe4"
+                }
+            },
       {
         "threshold": 7733253,
         "model": {

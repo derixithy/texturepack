@@ -1,6 +1,0 @@
-{
-	"parent": "item/handheld",
-	"textures": {
-	  "layer0": "katanas_old:item/diamond_katana"
-	}
-}

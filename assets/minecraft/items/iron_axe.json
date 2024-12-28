@@ -4,42 +4,42 @@
         "property": "custom_model_data",
         "fallback": {
             "type": "model",
-            "model": "item/stone_hoe"
+            "model": "item/iron_axe"
         },
         "entries": [
             {
                 "threshold": 1,
                 "model": {
                     "type": "model",
-                    "model": "copper_items:item/copper_hoe/copper_hoe"
+                    "model": "copper_items:item/copper_axe/copper_axe"
                 }
             },
             {
                 "threshold": 2,
                 "model": {
                     "type": "model",
-                    "model": "copper_items:item/copper_hoe/copper_hoe1"
+                    "model": "copper_items:item/copper_axe/copper_axe1"
                 }
             },
             {
                 "threshold": 3,
                 "model": {
                     "type": "model",
-                    "model": "copper_items:item/copper_hoe/copper_hoe2"
+                    "model": "copper_items:item/copper_axe/copper_axe2"
                 }
             },
             {
                 "threshold": 4,
                 "model": {
                     "type": "model",
-                    "model": "copper_items:item/copper_hoe/copper_hoe3"
+                    "model": "copper_items:item/copper_axe/copper_axe3"
                 }
             },
             {
                 "threshold": 5,
                 "model": {
                     "type": "model",
-                    "model": "copper_items:item/copper_hoe/copper_hoe4"
+                    "model": "copper_items:item/copper_axe/copper_axe4"
                 }
             }
         ]

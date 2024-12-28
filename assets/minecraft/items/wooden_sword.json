@@ -4,21 +4,21 @@
         "property": "custom_model_data",
         "fallback": {
             "type": "model",
-            "model": "item/diamond_axe"
+            "model": "item/wooden_sword"
         },
         "entries": [
             {
-                "threshold": 3024000,
+                "threshold": 8,
                 "model": {
                     "type": "model",
-                    "model": "double_blades:item/diamond_double_blade"
+                    "model": "katanas:item/wooden_katana_strong"
                 }
             },
             {
-                "threshold": 5875100,
+                "threshold": 9,
                 "model": {
                     "type": "model",
-                    "model": "hand_axes:item/diamond_hand_axe"
+                    "model": "katanas:item/wooden_katana"
                 }
             }
         ]
