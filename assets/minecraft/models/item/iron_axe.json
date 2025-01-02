@@ -9,6 +9,12 @@
 		{"predicate": {"custom_model_data":2}, "model": "copper_items:item/copper_axe/copper_axe1"},
 		{"predicate": {"custom_model_data":3}, "model": "copper_items:item/copper_axe/copper_axe2"},
 		{"predicate": {"custom_model_data":4}, "model": "copper_items:item/copper_axe/copper_axe3"},
-		{"predicate": {"custom_model_data":5}, "model": "copper_items:item/copper_axe/copper_axe4"}
+		{"predicate": {"custom_model_data":5}, "model": "copper_items:item/copper_axe/copper_axe4"},
+
+
+    	{ "predicate": { "custom_model_data": 83650 }, "model": "realisticsurvival:item/spartanweaponry/iron_battleaxe" },
+		{ "predicate": { "custom_model_data": 83651 }, "model": "realisticsurvival:item/notreepunching/iron_saw" },
+	
+	{ "predicate": { "custom_model_data": 93650 }, "model": "realisticsurvival:item/notreepunching/iron_mattock" }
 	]
 }
